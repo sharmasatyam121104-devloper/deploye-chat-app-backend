@@ -32,6 +32,10 @@ connectDB();
 isConnected=true;
 }
 
+app.get("/", (req, res) => {
+  res.send("API is running...");
+});
+
 
 
 //user api 
